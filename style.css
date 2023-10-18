@@ -1,0 +1,50 @@
+.card{
+    width: 300px;
+    height: 40px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    gap: 20px;
+    cursor: pointer;
+    border: 1px solid gray;  
+
+}
+
+.card .yazi{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.card .yazi .one, .two, .three{
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    &:hover{
+        background-color: pink;
+    }
+}
+   
+
+.card .two .subs{
+    width: 160px;
+    height: 120px;
+    margin-top: 11px;
+    background-color: gray;
+    border: 1px solid gray;
+    display: none;     
+}
+
+.two:hover .subs{
+    display: block;
+}
+
+.card .yazi .two 
+.subs .sub1, .sub2, .sub3{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: pink;
+    }
+}
